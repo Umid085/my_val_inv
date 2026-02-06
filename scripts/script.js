@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will you be my Valentine ?</title>
-
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <div id="mainScreen" class="container" style="display: flex;">
-        <h1>Will you be my valentine? 🌹</h1>
-        <div class="buttons">
-            <button id="yesBtn" style="transform: scale(1);">Yes</button>
-            <button id="noBtn" style="position: relative; left: auto; top: auto; transform: scale(1);">No</button>
-        </div>
-    </div>
-    <div id="successScreen">
-        <h1>Good Girl ❤️</h1>
-        <div class="gallery">
-            <img src="/images/us1.jpeg" onerror="this.src='us1.jpg'" alt="Us 1">
-            <img src="/images/us2.jpeg" onerror="this.src='us2.jpg'" alt="Us 2">
-            <img src="/images/us3.jpeg" onerror="this.src='us3.jpg'" alt="Us 3">
-            <img src="/images/us4.jpeg" onerror="this.src='us4.jpg'" alt="Us 4">
-            <img src="/images/us5.jpeg" onerror="this.src='us5.jpg'" alt="Us 5">
-        </div>
-    </div>
-    <div id="catScreen" style="display: none;">
-        <h1 style="color: red;">Stop messing with me 😾</h1>
-        <img id="catImg" src="/images/cat.png" alt="Cat With Gun">
-    </div>
-
-    <script>
-        const noBtn = document.getElementById('noBtn');
+const noBtn = document.getElementById('noBtn');
 const yesBtn = document.getElementById('yesBtn');
 const mainScreen = document.getElementById('mainScreen');
 const successScreen = document.getElementById('successScreen');
@@ -166,6 +133,3 @@ const catScreen = document.getElementById('catScreen');
             yesBtn.style.transform = 'scale(1)';
         }
     
-    </script>
-</body>
-</html>
