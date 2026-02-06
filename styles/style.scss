@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffdde1;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.5s ease;
+}
