@@ -96,7 +96,7 @@ button {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 10px;
-  padding: 1000px;
+  padding: 20px;
 }
 
 .gallery img {
